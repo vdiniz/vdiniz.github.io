@@ -30,6 +30,7 @@ body {
 .profile{
     display: flex;
     align-items: center;
+    /* justify-content: spa; */
     color: #1c1c1c;
 }
 
@@ -43,6 +44,7 @@ body {
 .title{
     margin-left: 60px;
     color: rgb(231, 231, 231);
+
 }
 
 #profile-photo{
@@ -56,6 +58,12 @@ body {
     min-width: 300px;
     min-height: 300px;
 }
+
+/*
+#profile-photo:hover{
+    object-fit: none;
+}
+*/
 
 .title h1{
     font-weight: 700;
@@ -71,6 +79,7 @@ body {
     width: 50px;
     height: auto;
     border-radius: 100%;
+    /* align-self: flex-end; */
     position: relative;
     top:-140px;
 }
