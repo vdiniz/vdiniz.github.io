@@ -30,21 +30,14 @@ body {
 .profile{
     display: flex;
     align-items: center;
-    /* justify-content: spa; */
     color: #1c1c1c;
-}
-
-.info-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1000px;
 }
 
 .title{
     margin-left: 60px;
     color: rgb(231, 231, 231);
-
+    margin-right: 300px;
+    
 }
 
 #profile-photo{
@@ -58,12 +51,6 @@ body {
     min-width: 300px;
     min-height: 300px;
 }
-
-/*
-#profile-photo:hover{
-    object-fit: none;
-}
-*/
 
 .title h1{
     font-weight: 700;
@@ -79,7 +66,7 @@ body {
     width: 50px;
     height: auto;
     border-radius: 100%;
-    /* align-self: flex-end; */
+    align-self: flex-end;
     position: relative;
     top:-140px;
 }
@@ -116,19 +103,19 @@ body {
     float:right;
     padding-left: 0px;
 }
-.exercícios ul{
+.exercicios ul{
 
     font-size: 30px;
 }
 
-.exercícios li{
-    width: 400px;
+.exercicios li{
+    width: 600px;
     margin:auto;
     font-size: 25px;
     
 }
 
-.exercícios li:hover{
+.exercicios li:hover{
     color: rgb(20, 176, 248);
 }
 
