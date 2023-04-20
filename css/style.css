@@ -43,8 +43,6 @@ body {
 .title{
     margin-left: 60px;
     color: rgb(231, 231, 231);
-    margin-right: 300px;
-    
 }
 
 #profile-photo{
@@ -73,7 +71,6 @@ body {
     width: 50px;
     height: auto;
     border-radius: 100%;
-    align-self: flex-end;
     position: relative;
     top:-140px;
 }
@@ -116,7 +113,7 @@ body {
 }
 
 .exercicios li{
-    width: 600px;
+    width: 400px;
     margin:auto;
     font-size: 25px;
     
