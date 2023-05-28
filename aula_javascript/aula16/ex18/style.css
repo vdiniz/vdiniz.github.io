@@ -1,0 +1,47 @@
+body{
+    background: rgb(24, 158, 236);
+    font: normal 15pt Arial;
+}
+
+
+header{
+
+    color: whitesmoke;
+    text-align: center;
+}
+
+section{
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 63, 92, 0.6);
+    text-align: center;
+
+}
+
+
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+
+#div-photo {
+    /* text-align: center; */
+    margin: auto;
+    padding-top: 30px;
+}
+
+img {
+    object-fit: cover;
+    width: 600px;
+    height: 800px;
+    border-radius: 50px;
+}
+
+#flista {
+    width:300px;
+}
